@@ -1,0 +1,13 @@
+{
+  "name": "lambda-transcoder",
+  "version": "1.0.0",
+  "description": "ffmpeg lambda host",
+  "main": "index.js",
+  "author": "Hai Phan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.0.0"
+  }
+}
