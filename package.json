@@ -1,13 +1,16 @@
 {
-  "name": "lambda-transcoder",
+  "name": "aws-lambda-shell-execute",
   "version": "1.0.0",
-  "description": "ffmpeg lambda host",
+  "description": "An AWS Lambda function that executes a shell command and returns the output.  Additional executable binaries can be deployed with and used by the function.",
   "main": "index.js",
-  "author": "Hai Phan",
+  "author": "Hai Phan <hai.phan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.8",
     "gulp-zip": "^4.0.0"
+  },
+  "scripts": {
+    "dist": "npm i --only=dev && gulp"
   }
 }
