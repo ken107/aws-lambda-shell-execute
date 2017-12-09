@@ -5,7 +5,7 @@ An AWS Lambda function that executes a shell command and returns the output.  Ad
 Create a 'bin' subdirectory in the project directory and add any executable binaries your function needs.  These binaries must be compatible with the AWS Lambda execution environment, which is Amazon Linux.  Make sure they have the execute permission set.
 
 ### 2. Build
-Open a shell in the project directory and run `npm run package`.  If you're on Windows, make sure you use a Linux shell so that file permissions are properly copied into the package.  Then deploy the `dist/package.zip` file to your AWS Lambda function.
+Open a shell in the project directory and run `npm run dist`.  If you're on Windows, make sure you use a Linux shell so that file permissions are properly copied into the package.  Then deploy the `dist/package.zip` file to your AWS Lambda function.
 
 ### 3. Invoke
 You can quickly test your function from the Lambda console with this simple test event:
