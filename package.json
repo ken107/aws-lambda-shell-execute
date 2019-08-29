@@ -6,7 +6,7 @@
   "author": "Hai Phan <hai.phan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-util": "^3.0.8",
     "gulp-zip": "^4.0.0"
   },
