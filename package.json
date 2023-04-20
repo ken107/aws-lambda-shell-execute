@@ -6,9 +6,9 @@
   "author": "Hai Phan <hai.phan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "chalk": "^4.0.0",
+    "chalk": "^5.2.0",
     "gulp": "^4.0.2",
-    "gulp-zip": "^5.0.1"
+    "gulp-zip": "^5.1.0"
   },
   "scripts": {
     "dist": "npm i --only=dev && gulp"
