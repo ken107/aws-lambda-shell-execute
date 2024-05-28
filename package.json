@@ -6,11 +6,10 @@
   "author": "Hai Phan <hai.phan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "chalk": "^5.2.0",
-    "gulp": "^4.0.2",
-    "gulp-zip": "^5.1.0"
+    "gulp": "^5.0.0",
+    "gulp-zip": "^6.0.0"
   },
   "scripts": {
-    "dist": "npm i --only=dev && gulp"
+    "dist": "npm i && gulp"
   }
 }
