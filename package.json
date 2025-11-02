@@ -4,7 +4,7 @@
   "description": "An AWS Lambda function that executes a shell command and returns the output.  Additional executable binaries can be deployed with and used by the function.",
   "main": "index.js",
   "author": "Hai Phan <hai.phan@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^5.0.0",
     "gulp-zip": "^6.0.0"
