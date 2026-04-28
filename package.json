@@ -5,11 +5,7 @@
   "main": "index.js",
   "author": "Hai Phan <hai.phan@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "gulp": "^5.0.0",
-    "gulp-zip": "^6.0.0"
-  },
   "scripts": {
-    "dist": "npm i && gulp"
+    "dist": "node scripts/dist.mjs"
   }
 }
